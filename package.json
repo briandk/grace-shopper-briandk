@@ -42,7 +42,7 @@
     }
   },
   "lint-staged": {
-    "*.{js,json,css,md}": [
+    "*.{ts, tsx, js,json,css,md}": [
       "yarn run prettier --write",
       "git add"
     ]
