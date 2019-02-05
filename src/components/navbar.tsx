@@ -5,10 +5,5 @@ import { NavbarLeft } from "./navbar-left";
 import { NavbarRight } from "./navbar-right";
 
 export const Navbar = () => {
-  return (
-    <nav className="uk-navbar-container" uk-navbar>
-      <NavbarLeft />
-      <NavbarRight />
-    </nav>
-  );
+  return <h1>COBALL</h1>;
 };

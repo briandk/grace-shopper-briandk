@@ -3,23 +3,5 @@ import "uikit/dist/css/uikit.css";
 import "uikit/dist/js/uikit.js";
 
 export const NavbarLeft = () => {
-  return (
-    <div className="uk-navbar-left">
-      <ul className="uk-navbar-nav">
-        <li>
-          <a className="uk-navbar-item uk-logo" href="#">
-            Issues
-          </a>
-        </li>
-        <li className="uk-active">
-          <a href="#">
-            <span className="uk-icon">Active</span>
-          </a>
-        </li>
-        <li>
-          <a href="#">Item</a>
-        </li>
-      </ul>
-    </div>
-  );
+  return null;
 };
